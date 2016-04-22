@@ -56,6 +56,9 @@ toolchain_table = [
     Toolchain('android-ndk-r10e-api-16-x86', 'Unix Makefiles'),
     Toolchain('android-ndk-r10e-api-16-x86-hid', 'Unix Makefiles'),
     Toolchain('android-ndk-r10e-api-19-armeabi-v7a-neon', 'Unix Makefiles'),
+    Toolchain('android-ndk-r10e-api-19-armeabi-v7a', 'Unix Makefiles'),
+    Toolchain('android-ndk-r10e-api-19-x86', 'Unix Makefiles'),
+    Toolchain('android-ndk-r10e-api-19-armeabi', 'Unix Makefiles'),
     Toolchain('android-ndk-r10e-api-21-armeabi-v7a', 'Unix Makefiles'),
     Toolchain('android-ndk-r10e-api-21-armeabi-v7a-neon', 'Unix Makefiles'),
     Toolchain('android-ndk-r10e-api-21-armeabi-v7a-neon-clang-35', 'Unix Makefiles'),
@@ -214,6 +217,7 @@ if platform.system() == 'Darwin':
       Toolchain('osx-10-11', 'Xcode', osx_version='10.11'),
       Toolchain('osx-10-10-dep-10-7', 'Xcode', osx_version='10.10'),
       Toolchain('osx-10-10-dep-10-9-make', 'Unix Makefiles'),
+      Toolchain('osx-10-11-dep-10-10', 'Xcode', osx_version='10.11'),
       Toolchain('linux-gcc-x64', 'Unix Makefiles'),
   ]
 
