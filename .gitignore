@@ -30,3 +30,5 @@ bin/detail/__pycache__
 *.creator.user
 *.files
 *.includes
+.tags
+.tags1
