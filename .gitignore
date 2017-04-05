@@ -32,3 +32,4 @@ bin/detail/__pycache__
 *.includes
 .tags
 .tags1
+_logs
