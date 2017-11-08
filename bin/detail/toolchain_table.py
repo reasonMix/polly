@@ -164,6 +164,7 @@ if platform.system() == 'Linux':
 
 if platform.system() == 'Darwin':
   toolchain_table += [
+      Toolchain('ios-11-1', 'Xcode', ios_version='11.1'),
       Toolchain('ios-11-0', 'Xcode', ios_version='11.0'),
       Toolchain('ios-10-3', 'Xcode', ios_version='10.3'),
       Toolchain('ios-10-1', 'Xcode', ios_version='10.1'),
@@ -223,6 +224,7 @@ if platform.system() == 'Darwin':
       Toolchain('osx-10-10-dep-10-9-make', 'Unix Makefiles'),
       Toolchain('osx-10-11-dep-10-10', 'Xcode', osx_version='10.11'),
       Toolchain('osx-10-12-dep-10-10', 'Xcode', osx_version='10.12'),
+      Toolchain('osx-10-13', 'Xcode', osx_version='10.13'),
       Toolchain('linux-gcc-x64', 'Unix Makefiles'),
   ]
 
